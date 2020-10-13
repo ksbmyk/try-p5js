@@ -4,5 +4,7 @@ function setup(){
 }
 
 function draw(){
-  rect(2, 2, 10, 10); 
+  for(i = 1; i < 10; i++){
+    rect(i*2, i*10, 10, 10); 
+  }
 }
