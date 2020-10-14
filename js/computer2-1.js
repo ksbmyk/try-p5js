@@ -6,6 +6,6 @@ function setup(){
 function draw(){
   for(i = 1; i < 10; i++){
     c = random(0, 500)
-    rect(c, c, 20, 20); 
+    rect(c, c*i, 20, 20); 
   }
 }
