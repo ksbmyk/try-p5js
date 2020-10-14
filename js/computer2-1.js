@@ -8,6 +8,6 @@ function draw(){
     x = random(0, 500)
     y = random(0, 500)
     rect(x, y, 20, 20); 
-    exit();
   }
+  exit();
 }
