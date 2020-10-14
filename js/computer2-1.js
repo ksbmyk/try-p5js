@@ -5,7 +5,8 @@ function setup(){
 
 function draw(){
   for(i = 1; i < 10; i++){
-    c = random(0, 500)
-    rect(c, c*i, 20, 20); 
+    x = random(0, 100)
+    y = random(100, 200)
+    rect(x, y, 20, 20); 
   }
 }
