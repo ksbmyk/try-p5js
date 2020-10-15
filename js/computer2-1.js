@@ -1,12 +1,12 @@
 function setup(){
-  createCanvas(500, 500);
+  createCanvas(800, 800);
   colorMode(HSB, 1);
 }
 
 function draw(){
-  for(i = 1; i < 1000; i++){
-    x = random(0, 500);
-    y = random(0, 500);
+  for(i = 1; i < 2000; i++){
+    x = random(0, 900);
+    y = random(0, 900);
     rect(x, y, 30, 30); 
   }
   exit();
