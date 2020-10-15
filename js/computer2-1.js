@@ -4,10 +4,10 @@ function setup(){
 }
 
 function draw(){
-  for(i = 1; i < 10; i++){
+  for(i = 1; i < 1000; i++){
     x = random(0, 500);
     y = random(0, 500);
-    rect(x, y, 20, 20); 
+    rect(x, y, 30, 30); 
   }
   exit();
 }
