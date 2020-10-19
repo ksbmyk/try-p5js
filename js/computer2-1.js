@@ -1,6 +1,6 @@
 function setup(){
   createCanvas(800, 800);
-  colorMode(HSB, 1);
+  colorMode(RGB, 256);
   noStroke();
 }
 
