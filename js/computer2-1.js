@@ -11,10 +11,10 @@ function draw(){
     c = random(0, 255);
     if (i % 2 == 1){
       fill(0, 0, c);
-    else {
+    } else {
       fill(0, c, 0);
     }
-      rect(x, y, 30, 30);
+    rect(x, y, 30, 30);
   }
   exit();
 }
