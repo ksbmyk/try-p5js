@@ -6,11 +6,16 @@ function setup(){
 
 function draw(){
   for(i = 1; i < 2000; i++){
+    if (itr % 2 == 1){
     x = random(0, 900);
     y = random(0, 900);
     c = random(0, 255);
-    fill(0, 0, c);
-    rect(x, y, 30, 30); 
+    if (itr % 2 == 1){
+      fill(0, 0, c);
+    else
+      fill(0, c, 0);
+    }
+      rect(x, y, 30, 30);
   }
   exit();
 }
