@@ -6,11 +6,10 @@ function setup(){
 
 function draw(){
   for(i = 1; i < 2000; i++){
-    if (i % 2 == 1){
     x = random(0, 900);
     y = random(0, 900);
     c = random(0, 255);
-    if (itr % 2 == 1){
+    if (i % 2 == 1){
       fill(0, 0, c);
     else
       fill(0, c, 0);
