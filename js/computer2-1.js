@@ -8,9 +8,9 @@ function draw(){
   for(i = 1; i < 3000; i++){
     x = random(0, 900);
     y = random(0, 900);
-    c = random(0, 3);
+    c = random(0, 255);
     if (i % 2 == 1){
-      fill(0, 0, c * 10 - 50);
+      fill(0, 0, c);
     } else {
       fill(0, c, 0);
     }
