@@ -11,11 +11,11 @@ function draw(){
   for(i = 1; i < 3000; i++){
     x = random(0, 900);
     y = random(0, 900);
-    c = random([100, 200, 255]);
+    c = random(colors);
     if (i % 2 == 1){
-      fill(0, 0, c);
+      fill(0, 0, Number(c));
     } else {
-      fill(0, c, 0);
+      fill(0, Number(c), 0);
     }
     rect(x, y, 30, 30);
   }
