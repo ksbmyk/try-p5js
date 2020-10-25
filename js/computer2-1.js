@@ -5,6 +5,7 @@ function setup(){
 }
 
 function draw(){
+  noLoop();
   for(i = 1; i < 3000; i++){
     x = random(0, 900);
     y = random(0, 900);
@@ -16,5 +17,4 @@ function draw(){
     }
     rect(x, y, 30, 30);
   }
-  exit();
 }
