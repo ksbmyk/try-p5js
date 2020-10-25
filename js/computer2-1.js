@@ -1,4 +1,4 @@
-var color = [215, 235, 255];
+var color = [255];
 
 function setup(){
   createCanvas(800, 800);
