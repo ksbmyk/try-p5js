@@ -9,7 +9,7 @@ function draw(){
   for(i = 1; i < 3000; i++){
     x = random(0, 900);
     y = random(0, 900);
-    c = random(0, 255);
+    c = noise(i * 0.02) * 800
     if (i % 2 == 1){
       fill(0, 0, c);
     } else {
