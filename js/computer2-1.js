@@ -17,6 +17,7 @@ function draw(){
     } else {
       fill(0, Number(c), 0);
     }
-    rect(x, y, 30, 30);
+    ellipse(x, y, 30);
+    //rect(x, y, 30, 30);
   }
 }
