@@ -16,7 +16,7 @@ function draw(){
       c = random(0, 128);
       fill(0, c, 256);
     } else {
-      c = random(128, 256)
+      c = random(128, 256);
       fill(0, c, 256);
     }
     ellipse(x, y, 30);
