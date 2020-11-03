@@ -22,7 +22,7 @@ function draw(){
 //      c = random(128, 256);
 //      fill(256, c, 0);
 //    }
-    ellipse(x, y, 30);
+    ellipse(x, x, 30);
     //rect(x, y, 30, 30);
   }
 }
