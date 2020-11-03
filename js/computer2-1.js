@@ -1,4 +1,4 @@
-var colors = [100, 200, 255];
+//var colors = [100, 200, 255];
 
 function setup(){
   createCanvas(800, 800);
@@ -11,11 +11,13 @@ function draw(){
   for(i = 1; i < 3000; i++){
     x = random(0, 900);
     y = random(0, 900);
-    c = random(colors);
+
     if (i % 2 == 1){
-      fill(0, 0, Number(c));
+      c = random(0, 128);
+      fill(256, c, 256);
     } else {
-      fill(0, Number(c), 0);
+      c = random(128, 256)
+      fill(256, c, 256);
     }
     ellipse(x, y, 30);
     //rect(x, y, 30, 30);
