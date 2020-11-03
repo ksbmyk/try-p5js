@@ -12,13 +12,16 @@ function draw(){
     x = random(0, 900);
     y = random(0, 900);
 
-    if (i % 2 == 1){
-      c = random(0, 128);
+          c = random(0, 256);
       fill(256, c, 0);
-    } else {
-      c = random(128, 256);
-      fill(256, c, 0);
-    }
+
+//    if (i % 2 == 1){
+//      c = random(0, 128);
+//      fill(256, c, 0);
+//    } else {
+//      c = random(128, 256);
+//      fill(256, c, 0);
+//    }
     ellipse(x, y, 30);
     //rect(x, y, 30, 30);
   }
