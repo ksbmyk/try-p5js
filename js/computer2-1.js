@@ -8,7 +8,7 @@ function setup(){
 
 function draw(){
   noLoop();
-  for(i = 1; i < 3000; i++){
+  for(i = 1; i < 2000; i++){
     x = random(0, 900);
     y = random(0, 900);
 
