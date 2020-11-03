@@ -14,10 +14,10 @@ function draw(){
 
     if (i % 2 == 1){
       c = random(0, 128);
-      fill(256, c, 256);
+      fill(0, c, 256);
     } else {
       c = random(128, 256)
-      fill(256, c, 256);
+      fill(0, c, 256);
     }
     ellipse(x, y, 30);
     //rect(x, y, 30, 30);
