@@ -9,8 +9,6 @@ function setup(){
 function draw(){
   noLoop();
   for(i = 1; i < 2000; i++){
-    x = random(0, 900);
-    y = random(0, 900);
 
           c = random(0, 256);
       fill(256, c, 0);
@@ -22,7 +20,9 @@ function draw(){
 //      c = random(128, 256);
 //      fill(256, c, 0);
 //    }
-    ellipse(x, x, 30);
-    //rect(x, y, 30, 30);
+    x = random(0, 900);
+    y = random(0, 900);
+
+    ellipse(x, y, 30);
   }
 }
