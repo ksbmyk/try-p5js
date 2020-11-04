@@ -10,16 +10,14 @@ function draw(){
   noLoop();
   for(i = 1; i < 2000; i++){
 
-          c = random(0, 256);
-      fill(256, c, 0);
+      // c = random(0, 256);
+      // fill(256, c, 0);
 
-//    if (i % 2 == 1){
-//      c = random(0, 128);
-//      fill(256, c, 0);
-//    } else {
-//      c = random(128, 256);
-//      fill(256, c, 0);
-//    }
+    if (i % 2 == 1){
+      fill(random(127, 249), random(191, 252), 255);
+    } else {
+      fill(255, 255, random(127, 249));
+    }
     x = random(0, 900);
     y = random(0, 900);
 
