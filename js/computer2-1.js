@@ -14,9 +14,9 @@ function draw(){
       // fill(256, c, 0);
 
     if (i % 2 == 1){
-      fill(random(127, 249), random(191, 252), 255, 0.5);
+      fill(random(127, 249), random(191, 252), 255);
     } else {
-      fill(random(191, 252), 255, random(127, 249), 0.5);
+      fill(random(191, 252), 255, random(127, 249));
     }
     x = random(0, 900);
     y = random(0, 900);
