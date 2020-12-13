@@ -6,10 +6,10 @@ function setup(){
 
 function draw(){
   noLoop();
-  for(i = 1; i < 1000; i++){
+  for(i = 1; i < 1500; i++){
 
     if (i % 2 == 1){
-      fill(random(127, 249), random(191, 252), 255);
+      //fill(random(127, 249), random(191, 252), 255);
     } else {
       //fill(random(191, 252), 255, random(127, 249));
     }
