@@ -1,5 +1,3 @@
-//var colors = [100, 200, 255];
-
 function setup(){
   createCanvas(800, 800);
   colorMode(RGB, 256);
