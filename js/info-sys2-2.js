@@ -11,7 +11,7 @@ function setup(){
 
 function draw(){
   noLoop();
-  for(var i = 0; i < stats.length(); i++){
+  for(var i = 0; i < stats.getRowCount(); i++){
     var h = stats.getFloat(i, 0);
     var l = stats.getFloat(i, 1);
     var s = stats.getFloat(i, 2);
