@@ -1,3 +1,6 @@
+// for 『NEORT』×『Pop Up! YohaS』 Digital Art Show
+// https://neort.io/challenge/cl0tss4n70rtc72b48v0
+
 function setup() {
     createCanvas(1920, 970);
     colorMode(RGB);
