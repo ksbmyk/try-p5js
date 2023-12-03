@@ -2,7 +2,7 @@
 // https://neort.io/challenge/cl0tss4n70rtc72b48v0
 
 let circles = [];
-let numCircles = 800;
+let numCircles = 700;
 // 白, 赤, 金、銀、緑, 金
 let colorPalette = ["#ffffff", "#CC0000", "#C99C33", "#A6AAAE", "#006622", "#C99C33"];
 function setup() {
