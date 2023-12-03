@@ -1,9 +1,9 @@
 function setup() {
-    createCanvas(800, 800);
+    createCanvas(1920, 970);
     colorMode(RGB);
     background(0, 30, 70);
     blendMode(OVERLAY);
-      noLoop();
+    noLoop();
   }
   
   function draw() {
@@ -15,7 +15,7 @@ function setup() {
         stroke(170, 200, 255);
         fill(255, 255, 255, 100);
       }
-      ellipse(random(0, 900), random(0, 900), 30);
+      ellipse(random(0, 1920), random(0, 970), 30);
     }
   }
-  
+ 
