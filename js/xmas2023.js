@@ -3,7 +3,7 @@
 
 let circles = [];
 let numCircles = 800;
-let colorPalette = ["#ffffff", "#ff0000", "#ffff00", "#0000ff", "#80ff00"];
+let colorPalette = ["#ffffff", "#ff0000", "#ffff00", "#0000ff", "#006400"];
 
 function setup() {
     createCanvas(1920, 970);
@@ -22,7 +22,8 @@ function setup() {
   }
   
 function draw() {
-    background(0, 30, 70);
+    background("#010b30");
+
     for (let i = 0; i < circles.length; i++) {
         let circle = circles[i];
         circle.alphaValue = 128 + 128 * sin(frameCount * circle.speed);
@@ -35,4 +36,3 @@ function draw() {
         ellipse(circle.x, circle.y, circle.diameter);
     }
 }
- 
