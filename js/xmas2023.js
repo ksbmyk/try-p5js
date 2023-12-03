@@ -3,8 +3,8 @@
 
 let circles = [];
 let numCircles = 800;
-// 白, 赤, 金、銀、緑
-let colorPalette = ["#ffffff", "#CC0000", "#C99C33", "#A6AAAE", "#006622"];
+// 白, 赤, 金、銀、緑, 金
+let colorPalette = ["#ffffff", "#CC0000", "#C99C33", "#A6AAAE", "#006622", "#C99C33"];
 function setup() {
     createCanvas(1920, 970);
 
@@ -22,7 +22,7 @@ function setup() {
   }
   
 function draw() {
-    background("#010b30");
+    background("#000000");
 
     for (let i = 0; i < circles.length; i++) {
         let circle = circles[i];
